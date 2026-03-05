@@ -20,7 +20,7 @@ string encrypt(string text,int shift){
 }
 
 //function to decrypt a caesar cipher encrypted string
-string decrypt(string text,int shift) {
+string decrypt(string text,int shift){
  //decrypt by applying encryption with the reverse shift
  return encrypt(text,26-shift);
 }
