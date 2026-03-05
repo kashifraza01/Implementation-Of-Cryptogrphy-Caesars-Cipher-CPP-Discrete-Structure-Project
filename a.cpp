@@ -10,28 +10,28 @@ string encrypt(string text,int shift){
  //determine if the character is uppercase or lowercase
        char base=isupper(c) ? 'A':'a';
  //shift the character and wrap it around the alphabet
-        result+=char((c-base+shift) % 26 + base);
+        result+=char((c-base+shift)%26+base);
      }else{
- // If not an alphabet, keep the character unchanged
+ //if not an alphabet,keep the character unchanged
          result+=c;
      }
  }
- return result; // Return the final encrypted string
-}
-// Function to decrypt a Caesar Cipher encrypted string
-string decrypt(string text, int shift) {
- // Decrypt by applying encryption with the reverse shift
- return encrypt(text, 26 - shift);
+ return result;
 }
 
-int main() {
- string message; // Variable to hold user input message
- int shift; // Variable to hold shift value
+//function to decrypt a caesar cipher encrypted string
+string decrypt(string text,int shift) {
+ //decrypt by applying encryption with the reverse shift
+ return encrypt(text,26-shift);
+}
+
+int main(){
+ string message;
+ int shift;
  cout << "=== Caesar Cipher Encryption ===" << endl;
- // Get the message from the user
+ 
  cout << "Enter a message: ";
  getline(cin,message);
- //get the shift value from.usr
  cout << "Enter shift value (1-25): ";
  cin >> shift;
  
@@ -41,7 +41,7 @@ int main() {
  return 1;
  }
  
- //encrypt the message using Caesar Cipher
+ //encrypt the message using caesar cipher
  string encrypted=encrypt(message,shift);
  cout<<"Encrypted message: " <<encrypted<<endl;
  
