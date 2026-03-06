@@ -80,12 +80,9 @@ caesar.exe
 ## 💻 Example Usage
 
 ```
-=== Caesar Cipher Encryption ===
-Enter a message: Hello World
-Enter shift value (1-25): 3
-Encrypted message: Khoor Zruog
-Decrypted message: Hello World
-```
+<p align="center">
+  <img src="ss1.png" width="45%">
+</p>
 
 ---
 
