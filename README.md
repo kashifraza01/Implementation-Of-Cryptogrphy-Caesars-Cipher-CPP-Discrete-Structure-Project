@@ -76,15 +76,12 @@ caesar.exe
 ```
 
 ---
-
 ## 💻 Example Usage
-
 === Caesar Cipher Encryption ===
 Enter a message: Hello
 Enter shift value (1-25): 3
 Encrypted message: Khoor
 Decrypted message: Hello
-
 ---
 
 ## 🧠 How It Works
