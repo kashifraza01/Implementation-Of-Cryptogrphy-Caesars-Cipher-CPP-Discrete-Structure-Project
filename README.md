@@ -45,9 +45,9 @@ KHOOR
 ## 📂 Project Structure
 
 ```
-caesar-cipher/
+Implementation-Of-Cryptogrphy-Caesars-Cipher-CPP-Discrete-Structure-Project/
 │
-├── main.cpp
+├── a.cpp
 └── README.md
 ```
 
@@ -60,28 +60,33 @@ caesar-cipher/
 Using g++:
 
 ```bash
-g++ main.cpp -o caesar
+g++ a.cpp -o a
 ```
 
 ### 2️⃣ Run the Program
 
 ```bash
-./caesar
+./a
 ```
 
 (On Windows)
 
 ```bash
-caesar.exe
+a.exe
 ```
 
 ---
+
 ## 💻 Example Usage
+
+```
 === Caesar Cipher Encryption ===
 Enter a message: Hello
 Enter shift value (1-25): 3
 Encrypted message: Khoor
 Decrypted message: Hello
+```
+
 ---
 
 ## 🧠 How It Works
