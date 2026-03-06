@@ -79,10 +79,11 @@ caesar.exe
 
 ## 💻 Example Usage
 
-```
-<p align="center">
-  <img src="ss1.png" width="45%">
-</p>
+=== Caesar Cipher Encryption ===
+Enter a message: Hello
+Enter shift value (1-25): 3
+Encrypted message: Khoor
+Decrypted message: Hello
 
 ---
 
